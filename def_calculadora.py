@@ -7,7 +7,7 @@ def multiplicar(a,b):
     return a * b
 def dividir(a,b):
     return a/b
-def solicitar_numeros(num1,num2):
+def solicitar_numeros():
     num1 = float(input("ingresa el primero numero: "))
     num2 = float(input("ingresa el segundo numero: "))
     return num1, num2
@@ -27,24 +27,24 @@ def calculadora():
         opcion = int(input("ingresa tu opcion del 1 al 5: "))
         
         if opcion ==1:
-            solicitar_numeros()
+            num1,num2= solicitar_numeros()
             resultado = suma(num1,num2)
-            mostrar_resultado()
+            mostrar_resultado(num1,num2,resultado)
         elif opcion == 2:
-            solicitar_numeros()
+            num1,num2= solicitar_numeros()
             resultado = resta(num1,num2)
-            mostrar_resultado()
+            mostrar_resultado(num1,num2,resultado)
         elif opcion == 3:
-            solicitar_numeros()
+            num1,num2= solicitar_numeros()
             resultado = multiplicar(num1,num2)
-            mostrar_resultado()
+            mostrar_resultado(num1,num2,resultado)
         elif opcion == 4:
-            solicitar_numeros()
+            num1,num2= solicitar_numeros()
             if num2 == 0:
                 print("Error, no se puede dividir entre 0")
             else:
                 resultado = dividir(num1,num2)
-                mostrar_resultado()
+                mostrar_resultado(num1,num2,resultado)
         elif opcion == 5:
             print("Gracias por usar la calculadora 0077")
             break

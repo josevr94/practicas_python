@@ -23,7 +23,7 @@ media = suma / len(numeros)
 print(f"la media de los numero es: {media}")
 
 # sumar valores de un diccionario
-ventas = {"enero":100, "febrrero":2000 ,"marzo":3000,}
+ventas = {"enero":100, "febrrero":2000 ,"marzo":3000}
 total_ventas =0
 for mes, cantidad in ventas.items():
     total_ventas += cantidad

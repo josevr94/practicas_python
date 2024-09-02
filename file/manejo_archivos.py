@@ -9,7 +9,7 @@ with open("file/ejemplo.txt", "r") as lectura:
     contenido = lectura.read()
     print(contenido)    
     
-# usando el metdo A 
+# usando el metdo A = agrega un elemento al fina del archivo
 with open("file/ejemplo.txt", "a") as  f:
     f.write("\nEsta es una nueva linea al fina del archivo") 
     
@@ -17,3 +17,19 @@ with open("file/ejemplo.txt", "a") as  f:
 with open("file/ejemplo.txt", "r") as lectura:
     contenido = lectura.read()
     print(contenido)       
+    
+#Maneo de errores 
+with open("file/ejemplo2.txt", "r") as file:
+    try:
+        contenido = file.read()
+        print(contenido)
+        
+    except FileNotFoundError:
+        print("no se encuentra el archivo")    
+
+# contar lineas
+with open('file/ejemplo.txt', 'r') as archivo:
+    contador = 0
+    for linea in archivo:
+        contador += 1    
+    print(f'El total de lineas es {contador}')         

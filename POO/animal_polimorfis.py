@@ -19,7 +19,7 @@ vaca = Vaca()
 animal_sonido(perro) # aca ya estaria listo y usando el metdo creado para traer el sonido, solo tengo que poner mi objeto, en este caso perro y se ira a buscar a que clase pertenece y buscar el hacer_sonido que tiene esa clase 
 animal_sonido(gato)
 animal_sonido(vaca)
-
+print(perro.hacer_sonido()) # para acceder a una metodo que esta dentrode una clase tengo que poner al (objeto.metodo)
 #esto de abajo es lo mismo que arriba pero con un bucle para que se recorra la lista y no tener q hacerlo uno por uno 
 animales = [Perro(), Gato(), Vaca(), Perro()]
 for animal in animales:  

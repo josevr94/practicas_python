@@ -1,4 +1,4 @@
-class EdadinvalidadError(Exception):
+class EdadinvalidadError(Exception): # para personalisar un error hay que primero crear esta clase exception, la cual permite usar el raise posteriormente
     pass
 def verificarEdad(edad):
     if edad < 18:

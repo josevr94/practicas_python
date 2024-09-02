@@ -1,0 +1,5 @@
+"(<class 'motocicletas.Motocicletas'>, {'marca': 'BMW', 'modelo': 'F800s', 'n_ruedas': 2, 'tipo_bicicleta': 'Deportiva', 'nro_radio': '2T', 'cuadro': 'Doble Viga', 'motor': 21})"
+"(<class 'automovil_particular.AutomovilParticular'>, {'marca': 'Ford', 'modelo': 'Fiesta', 'n_ruedas': 4, 'velocidad': 180, 'cilindrada': 500, 'n_puestos': 5})"
+"(<class 'automovil_carga.AutomovilCarga'>, {'marca': 'Daft Trucks', 'modelo': 'G 38', 'n_ruedas': 10, 'velocidad': 120, 'cilindrada': 1000, 'p_carga': 20000})"
+"(<class 'bicicletas.Bicicleta'>, {'marca': 'Shimano', 'modelo': 'MT Ranger', 'n_ruedas': 2, 'tipo_bicicleta': 'Carrera'})"
+
